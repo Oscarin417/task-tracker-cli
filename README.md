@@ -21,28 +21,28 @@ task-tracker/
 └── __init__.py    # Package initializer
 ```
 
-### Requirements
+### Installation
 
-- Python 3.10+
+```bash
+pip install -e .
+```
 
 ### Usage
 
-Run the application from the project directory:
-
 ```bash
-python main.py <command> [arguments]
+task <command> [arguments]
 ```
 
 ### Commands
 
 | Command | Description | Example |
 |---|---|---|
-| `add <description>` | Create a new task | `python main.py add "Fix login bug"` |
-| `list [status]` | List all tasks, optionally filtered by status | `python main.py list todo` |
-| `update <id> <description>` | Update a task's description | `python main.py update abc1 "New description"` |
-| `mark-in-progress <id>` | Mark a task as in-progress | `python main.py mark-in-progress abc1` |
-| `mark-done <id>` | Mark a task as done | `python main.py mark-done abc1` |
-| `delete <id>` | Delete a task | `python main.py delete abc1` |
+| `add <description>` | Create a new task | `task add "Fix login bug"` |
+| `list [status]` | List all tasks, optionally filtered by status | `task list todo` |
+| `update <id> <description>` | Update a task's description | `task update abc1 "New description"` |
+| `mark-in-progress <id>` | Mark a task as in-progress | `task mark-in-progress abc1` |
+| `mark-done <id>` | Mark a task as done | `task mark-done abc1` |
+| `delete <id>` | Delete a task | `task delete abc1` |
 
 ### Task Structure
 
@@ -73,28 +73,28 @@ task-tracker/
 └── __init__.py    # Inicializador del paquete
 ```
 
-### Requisitos
+### Instalación
 
-- Python 3.10+
+```bash
+pip install -e .
+```
 
 ### Uso
 
-Ejecuta la aplicación desde el directorio del proyecto:
-
 ```bash
-python main.py <comando> [argumentos]
+task <comando> [argumentos]
 ```
 
 ### Comandos
 
 | Comando | Descripción | Ejemplo |
 |---|---|---|
-| `add <descripción>` | Crear una nueva tarea | `python main.py add "Corregir bug de login"` |
-| `list [estado]` | Listar todas las tareas, opcionalmente filtradas por estado | `python main.py list todo` |
-| `update <id> <descripción>` | Actualizar la descripción de una tarea | `python main.py update abc1 "Nueva descripción"` |
-| `mark-in-progress <id>` | Marcar una tarea como en progreso | `python main.py mark-in-progress abc1` |
-| `mark-done <id>` | Marcar una tarea como completada | `python main.py mark-done abc1` |
-| `delete <id>` | Eliminar una tarea | `python main.py delete abc1` |
+| `add <descripción>` | Crear una nueva tarea | `task add "Corregir bug de login"` |
+| `list [estado]` | Listar todas las tareas, opcionalmente filtradas por estado | `task list todo` |
+| `update <id> <descripción>` | Actualizar la descripción de una tarea | `task update abc1 "Nueva descripción"` |
+| `mark-in-progress <id>` | Marcar una tarea como en progreso | `task mark-in-progress abc1` |
+| `mark-done <id>` | Marcar una tarea como completada | `task mark-done abc1` |
+| `delete <id>` | Eliminar una tarea | `task delete abc1` |
 
 ### Estructura de una Tarea
 
